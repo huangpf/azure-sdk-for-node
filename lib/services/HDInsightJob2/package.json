@@ -1,20 +1,14 @@
 {
-  "name": "azure-asm-compute",
+  "name": "azure-arm-hdinsight-jobs",
   "author": "Microsoft Corporation",
   "contributors": [
-    "Block, Glenn <gblock@microsoft.com>",
-    "Cowlishaw, Mark <markcowl@microsoft.com>",
-    "Dejardin, Louis <loudej@microsoft.com>",
-    "Georgiev, Yavor <yavorg@microsoft.com>",
-    "Janczuk, Tomasz <tjanczuk@microsoft.com>",
-    "Rodrigues, Andre <andrerod@microsoft.com>",
-    "Tavares, Chris <ctavares@microsoft.com>",
-    "Huang, Pengfei <phuang@microsoft.com>",
-    "Onalan, Alp <alpon@microsoft.com>",
-    "Lee, Hyonho <Hyonho.Lee@microsoft.com>"
+    "Amit, Harshitha <harshiam@microsoft.com>",
+    "Iyer, Ganeshan <giyer@microsoft.com>",
+    "Hicks, Matthew <mahi@microsoft.com>",
+    "Zavery, Amar <amzavery@microsoft.com>"
   ],
-  "version": "0.12.0",
-  "description": "Microsoft Azure Compute Management Client Library for node",
+  "version": "0.1.0",
+  "description": "Microsoft Azure HDInsight Job Submission Library for node",
   "tags": [
     "azure",
     "sdk"
@@ -23,7 +17,7 @@
     "node",
     "azure"
   ],
-  "main": "./lib/compute.js",
+  "main": "./lib/hdinsightjob2.js",
   "engines": {
     "node": ">= 0.6.15"
   },

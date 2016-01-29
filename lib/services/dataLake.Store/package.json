@@ -1,20 +1,11 @@
 {
-  "name": "azure-asm-compute",
+  "name": "azure-arm-datalake-store",
   "author": "Microsoft Corporation",
   "contributors": [
-    "Block, Glenn <gblock@microsoft.com>",
-    "Cowlishaw, Mark <markcowl@microsoft.com>",
-    "Dejardin, Louis <loudej@microsoft.com>",
-    "Georgiev, Yavor <yavorg@microsoft.com>",
-    "Janczuk, Tomasz <tjanczuk@microsoft.com>",
-    "Rodrigues, Andre <andrerod@microsoft.com>",
-    "Tavares, Chris <ctavares@microsoft.com>",
-    "Huang, Pengfei <phuang@microsoft.com>",
-    "Onalan, Alp <alpon@microsoft.com>",
-    "Lee, Hyonho <Hyonho.Lee@microsoft.com>"
+    "Goldsmith, Benjamin <begoldsm@microsoft.com>"
   ],
-  "version": "0.12.0",
-  "description": "Microsoft Azure Compute Management Client Library for node",
+  "version": "0.1.4",
+  "description": "Microsoft Azure Data Lake Store Management Client Library for node",
   "tags": [
     "azure",
     "sdk"
@@ -23,7 +14,7 @@
     "node",
     "azure"
   ],
-  "main": "./lib/compute.js",
+  "main": "./lib/dataLakeStore.js",
   "engines": {
     "node": ">= 0.6.15"
   },
@@ -34,7 +25,8 @@
     }
   ],
   "dependencies": {
-    "azure-common": "^0.9.13",
+    "azure-common": "^0.9.10",
+    "node-uuid": "^1.4.1",
     "underscore": "1.4.x"
   },
   "homepage": "http://github.com/Azure/azure-sdk-for-node",
